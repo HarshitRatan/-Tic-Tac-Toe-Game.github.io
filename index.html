@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="img/favicon.png" rel="icon">
+    <title>Tic tac toe</title>
+</head>
+
+<body>
+    <div class = "container">
+        <div class="head">
+            <h3>-- Tic Tac Toe Game --</h3>
+            <p>Code By <b>Harshit Ratan Shukla</b></p><hr>
+            <p>
+                <h5>Play with:</h5> 
+                <select id="AI-sel" onchange="control();" class="form-control">
+                    <option value="false">Human</option>
+                    <option value="true">Computer</option>
+                </select>
+            </p><hr>
+        </div>
+        <div class="row">
+            <h6 id="win-label" class="win--label"></h6>
+        </div>
+        <div class="row">
+            <div class="col-6 form-text">
+                <p id="xWin">X win = 0 </p>
+            </div>
+            <div class="col-6 form-text">
+                <p id="oWin">O win = 0 </p>    
+            </div>
+        </div>
+
+        <div class= "row">
+            <div id="c00" class="cell col-4"></div>
+            <div id="c01" class="cell col-4"></div>
+            <div id="c02" class="cell col-4"></div>
+        </div>
+        <div class="row">  
+            <div id="c10" class="cell col-4"></div>
+            <div id="c11" class="cell col-4"></div>
+            <div id="c12" class="cell col-4"></div>
+        </div>  
+        <div class="row">
+            <div id="c20" class="cell col-4"></div>
+            <div id="c21" class="cell col-4"></div>
+            <div id="c22" class="cell col-4"></div>
+        </div>
+    
+	
+        <button onclick="restart();" class="btn btn-outline-primary">Restart</button><hr>
+    </div>
+
+    <script src="js/index.js"></script>
+    
+</body>
+
+</html>

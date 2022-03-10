@@ -1,0 +1,45 @@
+body{
+	background-color: rgb(65, 63, 63);
+	}
+.cell{
+    border: 2px solid whitesmoke;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 80px;
+    color:whitesmoke;
+}
+.head{
+    color:whitesmoke;
+    text-align: center;
+}
+.btn{
+    margin: 20px;
+}
+h5{
+    color: yellowgreen;
+}
+h3{
+    color: rgb(226, 70, 70);
+}
+.container{
+    text-align: center;
+}
+.row{
+    justify-content: center;
+
+}
+.col-4{
+    background-color: rgba(27, 25, 25, 0.856);
+}
+.win--label
+{
+    color: limegreen;
+    font-size: 20px
+}
+.form-text
+{
+    color: gold;
+    font-size: 20px;
+}
